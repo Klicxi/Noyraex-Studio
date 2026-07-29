@@ -1,111 +1,116 @@
 # NOYRAEX
 
-Creator ecosystem for project journeys.
+**A creator ecosystem where projects are living journeys, not static portfolios.**
 
-Noyraex is a platform where creators share their projects,
-development progress and build communities around ideas.
+NOYRAEX is an open-source platform designed for creators to share the entire journey of building a project—from the very first idea to the final release.
 
-Projects are not just finished products.
-They are living journeys.
+Instead of only showcasing finished work, NOYRAEX allows creators to document progress, publish development updates, gather community feedback, and let observers follow the evolution of every project.
 
 ---
 
 ## Vision
 
-Noyraex connects:
+We believe every project has a story.
 
-- Creators who build projects
-- Observers who follow development
-- Contributors who help projects grow
-
-The goal is to make development visible and interactive.
+NOYRAEX is built around the idea that people should be able to discover not only completed products but also the creative process behind them.
 
 ---
 
 ## Current Features
 
-✅ Project pages
-
-✅ Project creation system
-
-✅ Project journey timeline
-
-✅ Devlog updates
-
-✅ Follow project system
-
-✅ Community and contribution pages
-
----
-
-## Technology
-
-Current version:
-
-- HTML
-- CSS
-- JavaScript
-- LocalStorage
-
-Future:
-
-- Backend
-- Database
-- User accounts
-- Real collaboration system
+* Create creator projects
+* Browse project journeys
+* Project detail pages
+* Development timeline
+* Creator profiles
+* Community page
+* Contribute page
+* Local project storage
+* Responsive interface
 
 ---
 
 ## Roadmap
 
-### Phase 1 — Foundation
+### Phase 1
 
-✅ Website structure
+* Creator profiles
+* Project editing
+* Project following
+* Better navigation
+* UI improvements
 
-✅ Project system
+### Phase 2
 
-✅ Creator ecosystem concept
+* User accounts
+* Authentication
+* Comments
+* Project updates
+* Notifications
 
+### Phase 3
 
-### Phase 2 — Community
+* Teams
+* Contributors
+* Organizations
+* Search
+* Tags
+* Categories
 
-⬜ Creator profiles
+### Phase 4
 
-⬜ Comments
+* Public API
+* Mobile support
+* AI project assistant
+* Community moderation
+* Plugin system
 
-⬜ Contributions
+---
 
-⬜ Notifications
+## Technology
 
+* HTML5
+* CSS3
+* JavaScript
+* LocalStorage
 
-### Phase 3 — Platform
+Future:
 
-⬜ Authentication
-
-⬜ Backend
-
-⬜ Database
-
-⬜ Real-time updates
-
+* Backend
+* Database
+* Authentication
+* Cloud storage
 
 ---
 
 ## Contributing
 
-Want to help build Noyraex?
+Everyone is welcome.
 
-You can contribute with:
+Whether you are a developer, designer, writer, translator, or community member, your contribution helps shape the future of NOYRAEX.
 
-- Code
-- Design
-- Ideas
-- Documentation
-- Community support
+Please check the Issues section before starting work.
 
+---
+
+## Philosophy
+
+Projects are journeys.
+
+Creators build.
+
+Observers follow.
+
+Contributors improve.
+
+Together we create an ecosystem.
 
 ---
 
 ## License
 
 MIT License
+
+---
+
+Made with ❤️ by **Klicxi**
