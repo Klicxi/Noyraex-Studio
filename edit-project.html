@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Edit Project — NOYRAEX</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">
+        <img src="logo.jpg" alt="NOYRAEX logo">
+        <span>NOYRAEX</span>
+    </div>
+
+    <nav aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Explore Projects</a>
+        <a href="create-project.html">Create Project</a>
+        <a href="community.html">Community</a>
+        <a href="contribute.html">Contribute</a>
+    </nav>
+</header>
+
+<main>
+
+<section class="hero">
+    <h1>Edit Project</h1>
+    <p>
+        Update your project details and continue tracking the development path.
+    </p>
+</section>
+
+<section class="project-about">
+    <div class="project-about-card">
+        <h2>Edit project details</h2>
+        <p>
+            Use this form to update the project title, category, description, goal, and status.
+        </p>
+
+        <form class="project-form" id="edit-project-form">
+            <div class="project-about-features">
+                <div>
+                    <label for="project-name"><strong>Project Name</strong></label>
+                    <input id="project-name" name="project-name" type="text" placeholder="Project title" />
+                </div>
+                <div>
+                    <label for="project-category"><strong>Category</strong></label>
+                    <select id="project-category" name="project-category">
+                        <option value="Game">Game</option>
+                        <option value="App">App</option>
+                        <option value="Website">Website</option>
+                        <option value="Art">Art</option>
+                        <option value="Music">Music</option>
+                        <option value="3D">3D</option>
+                        <option value="Article">Article</option>
+                        <option value="Mod">Mod</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="project-about-features" style="margin-top:24px;">
+                <div style="grid-column: span 2;">
+                    <label for="project-description"><strong>Project Description</strong></label>
+                    <textarea id="project-description" name="project-description" rows="6" placeholder="Describe the project in a few sentences."></textarea>
+                </div>
+            </div>
+
+            <div class="project-about-features" style="margin-top:24px;">
+                <div>
+                    <label for="project-stage"><strong>Project Stage</strong></label>
+                    <select id="project-stage" name="project-stage">
+                        <option value="idea">Idea</option>
+                        <option value="prototype">Prototype</option>
+                        <option value="development">Development</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="project-status"><strong>Project Status</strong></label>
+                    <select id="project-status" name="project-status">
+                        <option value="creating">Creating</option>
+                        <option value="paused">Paused</option>
+                        <option value="released">Completed</option>
+                        <option value="archived">Archived</option>
+                    </select>
+                </div>
+            </div>
+            <div class="project-about-features" style="margin-top:24px;">
+                <div>
+                    <label for="project-goal"><strong>Project Goal</strong></label>
+                    <textarea id="project-goal" name="project-goal" rows="4" placeholder="What outcome do you want from this project?"></textarea>
+                </div>
+            </div>
+
+            <div class="project-actions" style="margin-top:32px; gap:16px;">
+                <button type="submit">Save Changes</button>
+            </div>
+        </form>
+    </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+    <div class="footer-content">
+        NOYRAEX © 2026 — Platform for creator projects and progress.
+    </div>
+</footer>
+
+<script src="./script.js"></script>
+</body>
+</html>
