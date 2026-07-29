@@ -1,18 +1,27 @@
-# Editors
-.vscode/
-.idea/
-
-# OS
+# Operating System
 .DS_Store
 Thumbs.db
+
+# Editor
+.vscode/
+.idea/
 
 # Logs
 *.log
 
-# Temporary
-*.tmp
-*.bak
-
-# Node (на будущее)
+# Node
 node_modules/
+
+# Environment
+.env
+
+# Build
 dist/
+build/
+
+# Cache
+.cache/
+
+# Temporary files
+*.tmp
+*.temp
