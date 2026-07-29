@@ -1,0 +1,18 @@
+# Editors
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary
+*.tmp
+*.bak
+
+# Node (на будущее)
+node_modules/
+dist/
