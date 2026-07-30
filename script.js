@@ -107,7 +107,7 @@ function renderSavedProjects() {
 }
 
 function handleCreateProjectForm() {
-    const form = document.querySelector('.project-form');
+    const form = document.querySelector('project-form')
     if (!form) {
         return;
     }
