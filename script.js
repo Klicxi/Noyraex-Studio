@@ -82,32 +82,39 @@ function createProjectCard(project) {
 }
 
 function renderSavedProjects() {
-    const projectSections = document.querySelectorAll('section.projects > .cards');
-    if (projectSections.length < 2) {
+    const savedContainers = document.querySelectorAll('.saved-projects');
+    if (!savedContainers.length) {
         return;
     }
 
-    const showcaseContainer = projectSections[1];
     const savedProjects = getSavedProjects();
-    if (!savedProjects.length) {
-        return;
-    }
-
     const sortedProjects = savedProjects.slice().sort((a, b) => {
         return new Date(b.createdAt) - new Date(a.createdAt);
     });
 
-    const fragment = document.createDocumentFragment();
-    sortedProjects.forEach((project) => {
-        const projectCard = createProjectCard(project);
-        fragment.appendChild(projectCard);
-    });
+    savedContainers.forEach((container) => {
+        container.innerHTML = '';
 
-    showcaseContainer.insertBefore(fragment, showcaseContainer.firstChild);
+        if (!sortedProjects.length) {
+            const emptyState = document.createElement('div');
+            emptyState.className = 'empty-state';
+            emptyState.textContent = 'No saved projects yet. Start your first creator journey from Create Project.';
+            container.appendChild(emptyState);
+            return;
+        }
+
+        const fragment = document.createDocumentFragment();
+        sortedProjects.forEach((project) => {
+            const projectCard = createProjectCard(project);
+            fragment.appendChild(projectCard);
+        });
+
+        container.appendChild(fragment);
+    });
 }
 
 function handleCreateProjectForm() {
-    const form = document.querySelector('project-form')
+    const form = document.querySelector('.project-form');
     if (!form) {
         return;
     }
@@ -121,6 +128,7 @@ function handleCreateProjectForm() {
         const stage = form.querySelector('#project-stage').value;
         const status = form.querySelector('#project-status').value;
         const goal = form.querySelector('#project-goal').value.trim();
+        const author = form.querySelector('#project-creator') ? form.querySelector('#project-creator').value.trim() : DEFAULT_AUTHOR;
 
         if (!name || !description || !goal) {
             alert('Please fill in the project name, description, and goal.');
@@ -136,7 +144,7 @@ function handleCreateProjectForm() {
             stage,
             status,
             goal,
-            author: DEFAULT_AUTHOR,
+            author: author || DEFAULT_AUTHOR,
             createdAt: new Date().toISOString(),
         };
 

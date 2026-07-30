@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title">
+  <title id="title">NOYRAEX logo</title>
+  <defs>
+    <linearGradient id="gradA" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6ec4d3"/>
+      <stop offset="100%" stop-color="#b58cf9"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="30" fill="#08121f"/>
+  <path d="M32 34L56 34L56 56L88 34L88 84L64 84L64 62L32 84Z" fill="url(#gradA)"/>
+  <circle cx="36" cy="36" r="5" fill="#f5cc7f"/>
+  <circle cx="85" cy="36" r="5" fill="#6ec4d3"/>
+  <circle cx="76" cy="82" r="5" fill="#b58cf9"/>
+  <path d="M38 42L74 36L78 78" stroke="#8bd5eb" stroke-width="4" stroke-linecap="round" opacity="0.95"/>
+</svg>
