@@ -1,30 +1,59 @@
 # NOYRAEX
 
-**A creator ecosystem where projects are living journeys, not static portfolios.**
+**A creator ecosystem where projects become living journeys — not just finished products.**
 
-NOYRAEX is an open-source platform designed for creators to share the entire journey of building a project—from the very first idea to the final release.
+NOYRAEX is an open-source platform built around the idea that every project has a story.
 
-Instead of only showcasing finished work, NOYRAEX allows creators to document progress, publish development updates, gather community feedback, and let observers follow the evolution of every project.
+Instead of showing only the final result, NOYRAEX allows creators to share the entire process: ideas, experiments, development progress, challenges, improvements, and releases.
+
+Creators build.
+People follow.
+Communities contribute.
+
+NOYRAEX turns development into an open journey.
 
 ---
 
 ## Vision
 
-We believe every project has a story.
+Most platforms show only the final product.
 
-NOYRAEX is built around the idea that people should be able to discover not only completed products but also the creative process behind them.
+NOYRAEX focuses on everything that happens before that moment.
+
+We believe the process behind a project is just as valuable as the final result.
+
+Every idea, every improvement, and every challenge can become part of a bigger story.
+
+Our goal is to create an ecosystem where creators can build openly and where communities can participate in the evolution of projects.
+
+---
+
+## What is NOYRAEX?
+
+NOYRAEX is a platform where creators can:
+
+* Create and showcase projects
+* Share development progress
+* Document project evolution
+* Receive feedback from the community
+* Build a public creator identity
+* Connect with contributors
+
+Projects are not static pages.
+
+They are living journeys.
 
 ---
 
 ## Current Features
 
-* Create creator projects
-* Browse project journeys
-* Project detail pages
+* Creator projects
+* Project journey pages
+* Project details
 * Development timeline
 * Creator profiles
-* Community page
-* Contribute page
+* Community section
+* Contribution system
 * Local project storage
 * Responsive interface
 
@@ -32,15 +61,15 @@ NOYRAEX is built around the idea that people should be able to discover not only
 
 ## Roadmap
 
-### Phase 1
+### Phase 1 — Foundation
 
 * Creator profiles
 * Project editing
 * Project following
-* Better navigation
+* Improved navigation
 * UI improvements
 
-### Phase 2
+### Phase 2 — Community
 
 * User accounts
 * Authentication
@@ -48,16 +77,15 @@ NOYRAEX is built around the idea that people should be able to discover not only
 * Project updates
 * Notifications
 
-### Phase 3
+### Phase 3 — Ecosystem
 
 * Teams
 * Contributors
 * Organizations
-* Search
-* Tags
-* Categories
+* Search system
+* Tags and categories
 
-### Phase 4
+### Phase 4 — Expansion
 
 * Public API
 * Mobile support
@@ -69,6 +97,8 @@ NOYRAEX is built around the idea that people should be able to discover not only
 
 ## Technology
 
+Current:
+
 * HTML5
 * CSS3
 * JavaScript
@@ -76,7 +106,7 @@ NOYRAEX is built around the idea that people should be able to discover not only
 
 Future:
 
-* Backend
+* Backend infrastructure
 * Database
 * Authentication
 * Cloud storage
@@ -85,11 +115,42 @@ Future:
 
 ## Contributing
 
-Everyone is welcome.
+NOYRAEX is an open-source project, and everyone is welcome to participate.
 
-Whether you are a developer, designer, writer, translator, or community member, your contribution helps shape the future of NOYRAEX.
+You don't need to be only a developer.
 
-Please check the Issues section before starting work.
+We are looking for:
+
+* Developers
+* UI/UX designers
+* Graphic designers
+* Writers
+* Translators
+* Testers
+* Community contributors
+
+You can help by:
+
+* Reporting bugs
+* Suggesting ideas
+* Improving documentation
+* Creating designs
+* Writing code
+* Testing new features
+
+Every contribution helps build the future of NOYRAEX.
+
+Before starting, check the Issues section or open a discussion about your idea.
+
+---
+
+## Join the Project
+
+Interested in helping build NOYRAEX?
+
+Feel free to explore the repository, share your ideas, create issues, or contribute improvements.
+
+Together we can build a new way to experience projects — from the first idea to the final release.
 
 ---
 
